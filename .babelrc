@@ -1,0 +1,28 @@
+{
+  "env": {
+    "commonjs": {
+      "presets": [
+        [
+          "@babel/env",
+          {
+            "useBuiltIns": false
+          }
+        ]
+      ]
+    },
+    "es": {
+      "presets": [
+        [
+          "@babel/env",
+          {
+            "useBuiltIns": false,
+            "modules": false
+          }
+        ]
+      ]
+    }
+  },
+  "plugins": [
+    "@babel/proposal-object-rest-spread"
+  ]
+}

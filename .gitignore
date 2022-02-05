@@ -1,0 +1,12 @@
+node_modules
+lib
+dist
+es
+tmp
+.DS_Store
+.editorconfig
+.eslintrc
+.idea
+blockly
+ottoschool*
+.DS_Store

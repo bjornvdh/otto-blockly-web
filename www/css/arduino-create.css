@@ -1,0 +1,176 @@
+body {
+    color: #2c353a;
+    font-family: Lucida Grande,Lucida,Verdana,sans-serif;
+    padding: 15px;
+}
+
+.btn-group-vertical>.btn, .btn-group>.btn {
+    position: relative;
+    float: left;
+    width: 40px;
+}
+
+#error, .not-found, .closed, .error {
+    max-height: 150px;
+    /*width: 430px;*/
+    width: 100%;
+    /*height: 60px;*/
+    /*border: 1px solid grey;*/
+    /*font-family: "Courier New";*/
+    /*font-size: 10px;*/
+    /*overflow:auto;*/
+    color: red;
+    /*overflow: scroll;*/
+    overflow-y: scroll; /* Show vertical scrollbar */
+    /*overflow-x: scroll; /* Show horizontal scrollbar */
+    /*
+    scroll-behavior: auto;
+    overflow-scrolling: auto;
+     */
+}
+
+.modal .modal-dialog {
+    width: 550px;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(255, 0, 0, .3);
+    box-shadow: 0 0 1px rgba(255, 255, 255, .3);
+}
+
+button {
+    background-color: #4F9DFF;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: 0px;
+    width: 200px;
+}
+
+button:hover {
+    border-radius: 5px;
+    background-color: #224B8A;
+    color: #ffffff;
+    /*padding: 5px 10px;*/
+    border: 0px;
+}
+
+button:disabled,
+button[disabled]{
+    border: 0px solid #999999;
+    border-radius: 5px;
+    background-color: #cccccc;
+    color: #666666;
+}
+
+/*
+div {
+  padding: 5px 10px;
+}
+*/
+
+.found, .open, .success {
+    color: green;
+}
+
+pre {
+    background: #f9f9f9;
+}
+
+.in-progress {
+    color: blue;
+}
+
+.parent {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.show-image {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    visibility: visible;
+    height: 40px;
+}
+
+.hide-image {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    visibility: hidden;
+    height: 40px;
+}
+
+.success_image {
+    content: url("../media/OK.svg");
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    visibility: visible;
+    height: 40px;
+    width: 40px;
+}
+
+.error_image {
+    content: url("../media/Error.svg");
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    visibility: visible;
+    height: 40px;
+    width: 40px;
+}
+
+.progress_image  {
+    content: url("../media/load.gif");
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    visibility: visible;
+    height: 40px;
+    width: 40px;
+}
+
+#serial-textarea {
+    height: 300px;
+}
+
+.section {
+    margin: 20px;
+}
+
+.install-tool-container .tool-input {
+    display: flex;
+    margin: 10px 0;
+}
+
+.install-tool-container .tool-input label {
+    flex: 0 1 200px;
+}
+
+.install-tool-container .tool-input input {
+    flex: 0 1 500px;
+}
+
+.v2 {
+    background-color: #ecf1f1;
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td {
+    border: 0px solid black;
+    padding: 3px;
+}

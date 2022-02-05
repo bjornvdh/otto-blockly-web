@@ -1,0 +1,1596 @@
+{
+  "items": [
+    {
+      "architecture": "avr",
+      "fqbn": "littleBits:avr:w6_arduino",
+      "href": "/v3/boards/littleBits:avr:w6_arduino",
+      "name": "littleBits w6 Arduino Module (Leonardo)",
+      "package": "littleBits",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "industruino:samd:industruino_d21g",
+      "href": "/v3/boards/industruino:samd:industruino_d21g",
+      "name": "Industruino D21G",
+      "package": "industruino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:wiolink",
+      "href": "/v3/boards/esp8266:esp8266:wiolink",
+      "name": "Seeed Wio Link",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:wifinfo",
+      "href": "/v3/boards/esp8266:esp8266:wifinfo",
+      "name": "WifInfo",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:wifiduino",
+      "href": "/v3/boards/esp8266:esp8266:wifiduino",
+      "name": "WiFiduino",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:wifi_slot",
+      "href": "/v3/boards/esp8266:esp8266:wifi_slot",
+      "name": "Amperka WiFi Slot",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:thingdev",
+      "href": "/v3/boards/esp8266:esp8266:thingdev",
+      "name": "SparkFun ESP8266 Thing Dev",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:thing",
+      "href": "/v3/boards/esp8266:esp8266:thing",
+      "name": "SparkFun ESP8266 Thing",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:phoenix_v2",
+      "href": "/v3/boards/esp8266:esp8266:phoenix_v2",
+      "name": "Phoenix 2.0",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:phoenix_v1",
+      "href": "/v3/boards/esp8266:esp8266:phoenix_v1",
+      "name": "Phoenix 1.0",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:oak",
+      "href": "/v3/boards/esp8266:esp8266:oak",
+      "name": "Digistump Oak",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:nodemcuv2",
+      "href": "/v3/boards/esp8266:esp8266:nodemcuv2",
+      "name": "NodeMCU 1.0 (ESP-12E Module)",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:nodemcu",
+      "href": "/v3/boards/esp8266:esp8266:nodemcu",
+      "name": "NodeMCU 0.9 (ESP-12 Module)",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:modwifi",
+      "href": "/v3/boards/esp8266:esp8266:modwifi",
+      "name": "Olimex MOD-WIFI-ESP8266(-DEV)",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:huzzah",
+      "href": "/v3/boards/esp8266:esp8266:huzzah",
+      "name": "Adafruit Feather HUZZAH ESP8266",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:generic",
+      "href": "/v3/boards/esp8266:esp8266:generic",
+      "name": "Generic ESP8266 Module",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:gen4iod",
+      "href": "/v3/boards/esp8266:esp8266:gen4iod",
+      "name": "4D Systems gen4 IoD Range",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:espresso_lite_v2",
+      "href": "/v3/boards/esp8266:esp8266:espresso_lite_v2",
+      "name": "ESPresso Lite 2.0",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:espresso_lite_v1",
+      "href": "/v3/boards/esp8266:esp8266:espresso_lite_v1",
+      "name": "ESPresso Lite 1.0",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:espinotee",
+      "href": "/v3/boards/esp8266:esp8266:espinotee",
+      "name": "ThaiEasyElec's ESPino",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:espino",
+      "href": "/v3/boards/esp8266:esp8266:espino",
+      "name": "ESPino (ESP-12 Module)",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:espectro",
+      "href": "/v3/boards/esp8266:esp8266:espectro",
+      "name": "ESPectro Core",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:espduino",
+      "href": "/v3/boards/esp8266:esp8266:espduino",
+      "name": "ESPDuino (ESP-13 Module)",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:esp8285",
+      "href": "/v3/boards/esp8266:esp8266:esp8285",
+      "name": "Generic ESP8285 Module",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:esp210",
+      "href": "/v3/boards/esp8266:esp8266:esp210",
+      "name": "SweetPea ESP-210",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:d1_mini_pro",
+      "href": "/v3/boards/esp8266:esp8266:d1_mini_pro",
+      "name": "LOLIN(WEMOS) D1 mini Pro",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:d1_mini_lite",
+      "href": "/v3/boards/esp8266:esp8266:d1_mini_lite",
+      "name": "LOLIN(WEMOS) D1 mini Lite",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:d1_mini",
+      "href": "/v3/boards/esp8266:esp8266:d1_mini",
+      "name": "LOLIN(WEMOS) D1 R2 \u0026 mini",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:d1",
+      "href": "/v3/boards/esp8266:esp8266:d1",
+      "name": "WeMos D1 R1",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:cw01",
+      "href": "/v3/boards/esp8266:esp8266:cw01",
+      "name": "XinaBox CW01",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp8266",
+      "fqbn": "esp8266:esp8266:arduino-esp8266",
+      "href": "/v3/boards/esp8266:esp8266:arduino-esp8266",
+      "name": "Arduino",
+      "package": "esp8266",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:wipy3",
+      "href": "/v3/boards/esp32:esp32:wipy3",
+      "name": "WiPy 3.0",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:wifiduino32",
+      "href": "/v3/boards/esp32:esp32:wifiduino32",
+      "name": "WiFiduino32",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:widora-air",
+      "href": "/v3/boards/esp32:esp32:widora-air",
+      "name": "Widora AIR",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:wesp32",
+      "href": "/v3/boards/esp32:esp32:wesp32",
+      "name": "Silicognition wESP32",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:vintlabs-devkit-v1",
+      "href": "/v3/boards/esp32:esp32:vintlabs-devkit-v1",
+      "name": "VintLabs ESP32 Devkit",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:twatch",
+      "href": "/v3/boards/esp32:esp32:twatch",
+      "name": "TTGO T-Watch",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:turta_iot_node",
+      "href": "/v3/boards/esp32:esp32:turta_iot_node",
+      "name": "Turta IoT Node",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:ttgo-t7-v14-mini32",
+      "href": "/v3/boards/esp32:esp32:ttgo-t7-v14-mini32",
+      "name": "TTGO T7 V1.4 Mini32",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:ttgo-t7-v13-mini32",
+      "href": "/v3/boards/esp32:esp32:ttgo-t7-v13-mini32",
+      "name": "TTGO T7 V1.3 Mini32",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:ttgo-t1",
+      "href": "/v3/boards/esp32:esp32:ttgo-t1",
+      "name": "TTGO T1",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:ttgo-lora32-v21new",
+      "href": "/v3/boards/esp32:esp32:ttgo-lora32-v21new",
+      "name": "TTGO LoRa32-OLED v2.1.6",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:ttgo-lora32-v1",
+      "href": "/v3/boards/esp32:esp32:ttgo-lora32-v1",
+      "name": "TTGO LoRa32-OLED V1",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:tinypico",
+      "href": "/v3/boards/esp32:esp32:tinypico",
+      "name": "TinyPICO",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:t-beam",
+      "href": "/v3/boards/esp32:esp32:t-beam",
+      "name": "T-Beam",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:sparkfun_lora_gateway_1-channel",
+      "href": "/v3/boards/esp32:esp32:sparkfun_lora_gateway_1-channel",
+      "name": "SparkFun LoRa Gateway 1-Channel",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:sensesiot_weizen",
+      "href": "/v3/boards/esp32:esp32:sensesiot_weizen",
+      "name": "Senses's WEIZEN",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:quantum",
+      "href": "/v3/boards/esp32:esp32:quantum",
+      "name": "Noduino Quantum",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:pocket_32",
+      "href": "/v3/boards/esp32:esp32:pocket_32",
+      "name": "Dongsen Tech Pocket 32",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:piranha_esp-32",
+      "href": "/v3/boards/esp32:esp32:piranha_esp-32",
+      "name": "Piranha ESP-32",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:pico32",
+      "href": "/v3/boards/esp32:esp32:pico32",
+      "name": "ESP32 Pico Kit",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:oroca_edubot",
+      "href": "/v3/boards/esp32:esp32:oroca_edubot",
+      "name": "OROCA EduBot",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:onehorse32dev",
+      "href": "/v3/boards/esp32:esp32:onehorse32dev",
+      "name": "Onehorse ESP32 Dev Module",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:odroid_esp32",
+      "href": "/v3/boards/esp32:esp32:odroid_esp32",
+      "name": "ODROID ESP32",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:nodemcu-32s",
+      "href": "/v3/boards/esp32:esp32:nodemcu-32s",
+      "name": "NodeMCU-32S",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:node32s",
+      "href": "/v3/boards/esp32:esp32:node32s",
+      "name": "Node32s",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:nina_w10",
+      "href": "/v3/boards/esp32:esp32:nina_w10",
+      "name": "u-blox NINA-W10 series (ESP32)",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:nano32",
+      "href": "/v3/boards/esp32:esp32:nano32",
+      "name": "Nano32",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:mhetesp32minikit",
+      "href": "/v3/boards/esp32:esp32:mhetesp32minikit",
+      "name": "MH ET LIVE ESP32MiniKit",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:mhetesp32devkit",
+      "href": "/v3/boards/esp32:esp32:mhetesp32devkit",
+      "name": "MH ET LIVE ESP32DevKIT",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:mgbot-iotik32b",
+      "href": "/v3/boards/esp32:esp32:mgbot-iotik32b",
+      "name": "MGBOT IOTIK 32B",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:mgbot-iotik32a",
+      "href": "/v3/boards/esp32:esp32:mgbot-iotik32a",
+      "name": "MGBOT IOTIK 32A",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:metro_esp-32",
+      "href": "/v3/boards/esp32:esp32:metro_esp-32",
+      "name": "Metro ESP-32",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:magicbit",
+      "href": "/v3/boards/esp32:esp32:magicbit",
+      "name": "MagicBit",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:mPython",
+      "href": "/v3/boards/esp32:esp32:mPython",
+      "name": "Labplus mPython",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:m5stick-c",
+      "href": "/v3/boards/esp32:esp32:m5stick-c",
+      "name": "M5Stick-C",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:m5stack-timer-cam",
+      "href": "/v3/boards/esp32:esp32:m5stack-timer-cam",
+      "name": "M5Stack-Timer-CAM",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:m5stack-fire",
+      "href": "/v3/boards/esp32:esp32:m5stack-fire",
+      "name": "M5Stack-FIRE",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:m5stack-coreink",
+      "href": "/v3/boards/esp32:esp32:m5stack-coreink",
+      "name": "M5Stack-CoreInk",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:m5stack-core2",
+      "href": "/v3/boards/esp32:esp32:m5stack-core2",
+      "name": "M5Stack-Core2",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:m5stack-core-esp32",
+      "href": "/v3/boards/esp32:esp32:m5stack-core-esp32",
+      "name": "M5Stack-Core-ESP32",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:m5stack-atom",
+      "href": "/v3/boards/esp32:esp32:m5stack-atom",
+      "name": "M5Stack-ATOM",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:lopy4",
+      "href": "/v3/boards/esp32:esp32:lopy4",
+      "name": "LoPy4",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:lopy",
+      "href": "/v3/boards/esp32:esp32:lopy",
+      "name": "LoPy",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:lolin32-lite",
+      "href": "/v3/boards/esp32:esp32:lolin32-lite",
+      "name": "WEMOS LOLIN32 Lite",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:lolin32",
+      "href": "/v3/boards/esp32:esp32:lolin32",
+      "name": "WEMOS LOLIN32",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:kits-edu",
+      "href": "/v3/boards/esp32:esp32:kits-edu",
+      "name": "KITS ESP32 EDU",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:intorobot-fig",
+      "href": "/v3/boards/esp32:esp32:intorobot-fig",
+      "name": "IntoRobot Fig",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:imbrios-logsens-v1p1",
+      "href": "/v3/boards/esp32:esp32:imbrios-logsens-v1p1",
+      "name": "IMBRIOS LOGSENS_V1P1",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:hornbill32minima",
+      "href": "/v3/boards/esp32:esp32:hornbill32minima",
+      "name": "Hornbill ESP32 Minima",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:hornbill32dev",
+      "href": "/v3/boards/esp32:esp32:hornbill32dev",
+      "name": "Hornbill ESP32 Dev",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:honeylemon",
+      "href": "/v3/boards/esp32:esp32:honeylemon",
+      "name": "HONEYLemon",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:heltec_wireless_stick_lite",
+      "href": "/v3/boards/esp32:esp32:heltec_wireless_stick_lite",
+      "name": "Heltec Wireless Stick Lite",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:heltec_wireless_stick",
+      "href": "/v3/boards/esp32:esp32:heltec_wireless_stick",
+      "name": "Heltec Wireless Stick",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:heltec_wifi_lora_32_V2",
+      "href": "/v3/boards/esp32:esp32:heltec_wifi_lora_32_V2",
+      "name": "Heltec WiFi LoRa 32(V2)",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:heltec_wifi_lora_32",
+      "href": "/v3/boards/esp32:esp32:heltec_wifi_lora_32",
+      "name": "Heltec WiFi LoRa 32",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:heltec_wifi_kit_32",
+      "href": "/v3/boards/esp32:esp32:heltec_wifi_kit_32",
+      "name": "Heltec WiFi Kit 32",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:healthypi4",
+      "href": "/v3/boards/esp32:esp32:healthypi4",
+      "name": "ProtoCentral HealthyPi 4",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:gpy",
+      "href": "/v3/boards/esp32:esp32:gpy",
+      "name": "Pycom GPy",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:frogboard",
+      "href": "/v3/boards/esp32:esp32:frogboard",
+      "name": "Frog Board ESP32",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:fm-devkit",
+      "href": "/v3/boards/esp32:esp32:fm-devkit",
+      "name": "ESP32 FM DevKit",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:firebeetle32",
+      "href": "/v3/boards/esp32:esp32:firebeetle32",
+      "name": "FireBeetle-ESP32",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:featheresp32",
+      "href": "/v3/boards/esp32:esp32:featheresp32",
+      "name": "Adafruit ESP32 Feather",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:espino32",
+      "href": "/v3/boards/esp32:esp32:espino32",
+      "name": "ThaiEasyElec's ESPino32",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:espectro32",
+      "href": "/v3/boards/esp32:esp32:espectro32",
+      "name": "ESPectro32",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:espea32",
+      "href": "/v3/boards/esp32:esp32:espea32",
+      "name": "ESPea32",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:esp32wrover",
+      "href": "/v3/boards/esp32:esp32:esp32wrover",
+      "name": "ESP32 Wrover Module",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:esp32vn-iot-uno",
+      "href": "/v3/boards/esp32:esp32:esp32vn-iot-uno",
+      "name": "ESP32vn IoT Uno",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:esp32thing_plus",
+      "href": "/v3/boards/esp32:esp32:esp32thing_plus",
+      "name": "SparkFun ESP32 Thing Plus",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:esp32thing",
+      "href": "/v3/boards/esp32:esp32:esp32thing",
+      "name": "SparkFun ESP32 Thing",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:esp32doit-espduino",
+      "href": "/v3/boards/esp32:esp32:esp32doit-espduino",
+      "name": "DOIT ESPduino32",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:esp32doit-devkit-v1",
+      "href": "/v3/boards/esp32:esp32:esp32doit-devkit-v1",
+      "name": "DOIT ESP32 DEVKIT V1",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:esp32cam",
+      "href": "/v3/boards/esp32:esp32:esp32cam",
+      "name": "AI Thinker ESP32-CAM",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:esp320",
+      "href": "/v3/boards/esp32:esp32:esp320",
+      "name": "Electronic SweetPeas - ESP320",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:esp32-poe-iso",
+      "href": "/v3/boards/esp32:esp32:esp32-poe-iso",
+      "name": "OLIMEX ESP32-PoE-ISO",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:esp32-poe",
+      "href": "/v3/boards/esp32:esp32:esp32-poe",
+      "name": "OLIMEX ESP32-PoE",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:esp32-gateway",
+      "href": "/v3/boards/esp32:esp32:esp32-gateway",
+      "name": "OLIMEX ESP32-GATEWAY",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:esp32-evb",
+      "href": "/v3/boards/esp32:esp32:esp32-evb",
+      "name": "OLIMEX ESP32-EVB",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:esp32-DevKitLipo",
+      "href": "/v3/boards/esp32:esp32:esp32-DevKitLipo",
+      "name": "OLIMEX ESP32-DevKit-LiPo",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:esp32",
+      "href": "/v3/boards/esp32:esp32:esp32",
+      "name": "ESP32 Dev Module",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:d32_pro",
+      "href": "/v3/boards/esp32:esp32:d32_pro",
+      "name": "LOLIN D32 PRO",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:d32",
+      "href": "/v3/boards/esp32:esp32:d32",
+      "name": "LOLIN D32",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:d1_mini32",
+      "href": "/v3/boards/esp32:esp32:d1_mini32",
+      "name": "WEMOS D1 MINI ESP32",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:d-duino-32",
+      "href": "/v3/boards/esp32:esp32:d-duino-32",
+      "name": "D-duino-32",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:cw02",
+      "href": "/v3/boards/esp32:esp32:cw02",
+      "name": "XinaBox CW02",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:bpi-bit",
+      "href": "/v3/boards/esp32:esp32:bpi-bit",
+      "name": "BPI-BIT",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:alksesp32",
+      "href": "/v3/boards/esp32:esp32:alksesp32",
+      "name": "ALKS ESP32",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:WeMosBat",
+      "href": "/v3/boards/esp32:esp32:WeMosBat",
+      "name": "WeMos WiFi\u0026Bluetooth Battery",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:S_ODI_Ultra",
+      "href": "/v3/boards/esp32:esp32:S_ODI_Ultra",
+      "name": "S.ODI Ultra v1",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:OpenKB",
+      "href": "/v3/boards/esp32:esp32:OpenKB",
+      "name": "INEX OpenKB",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:ET-Board",
+      "href": "/v3/boards/esp32:esp32:ET-Board",
+      "name": "ET-Board",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "esp32",
+      "fqbn": "esp32:esp32:CoreESP32",
+      "href": "/v3/boards/esp32:esp32:CoreESP32",
+      "name": "Microduino-CoreESP32",
+      "package": "esp32",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "emoro:avr:emoro2560",
+      "href": "/v3/boards/emoro:avr:emoro2560",
+      "name": "EMoRo 2560",
+      "package": "emoro",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "atmel-avr-xminis:avr:atmega328pb_xplained_mini",
+      "href": "/v3/boards/atmel-avr-xminis:avr:atmega328pb_xplained_mini",
+      "name": "Atmel atmega328pb Xplained mini",
+      "package": "atmel-avr-xminis",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "atmel-avr-xminis:avr:atmega328p_xplained_mini",
+      "href": "/v3/boards/atmel-avr-xminis:avr:atmega328p_xplained_mini",
+      "name": "Atmel atmega328p Xplained mini",
+      "package": "atmel-avr-xminis",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "atmel-avr-xminis:avr:atmega168pb_xplained_mini",
+      "href": "/v3/boards/atmel-avr-xminis:avr:atmega168pb_xplained_mini",
+      "name": "Atmel atmega168pb Xplained mini",
+      "package": "atmel-avr-xminis",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "arduino:samd:tian",
+      "href": "/v3/boards/arduino:samd:tian",
+      "name": "Arduino Tian",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "arduino:samd:nano_33_iot",
+      "href": "/v3/boards/arduino:samd:nano_33_iot",
+      "name": "Arduino NANO 33 IoT",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "arduino:samd:mzero_pro_bl_dbg",
+      "href": "/v3/boards/arduino:samd:mzero_pro_bl_dbg",
+      "name": "Arduino M0 Pro (Programming Port)",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "arduino:samd:mzero_pro_bl",
+      "href": "/v3/boards/arduino:samd:mzero_pro_bl",
+      "name": "Arduino M0 Pro (Native USB Port)",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "arduino:samd:mzero_bl",
+      "href": "/v3/boards/arduino:samd:mzero_bl",
+      "name": "Arduino M0",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "arduino:samd:mkrzero",
+      "href": "/v3/boards/arduino:samd:mkrzero",
+      "name": "Arduino MKRZERO",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "arduino:samd:mkrwifi1010",
+      "href": "/v3/boards/arduino:samd:mkrwifi1010",
+      "name": "Arduino MKR WiFi 1010",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "arduino:samd:mkrwan1310",
+      "href": "/v3/boards/arduino:samd:mkrwan1310",
+      "name": "Arduino MKR WAN 1310",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "arduino:samd:mkrwan1300",
+      "href": "/v3/boards/arduino:samd:mkrwan1300",
+      "name": "Arduino MKR WAN 1300",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "arduino:samd:mkrvidor4000",
+      "href": "/v3/boards/arduino:samd:mkrvidor4000",
+      "name": "Arduino MKR Vidor 4000",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "arduino:samd:mkrnb1500",
+      "href": "/v3/boards/arduino:samd:mkrnb1500",
+      "name": "Arduino MKR NB 1500",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "arduino:samd:mkrgsm1400",
+      "href": "/v3/boards/arduino:samd:mkrgsm1400",
+      "name": "Arduino MKR GSM 1400",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "arduino:samd:mkrfox1200",
+      "href": "/v3/boards/arduino:samd:mkrfox1200",
+      "name": "Arduino MKR FOX 1200",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "arduino:samd:mkr1000",
+      "href": "/v3/boards/arduino:samd:mkr1000",
+      "name": "Arduino MKR1000",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "arduino:samd:arduino_zero_native",
+      "href": "/v3/boards/arduino:samd:arduino_zero_native",
+      "name": "Arduino Zero (Native USB Port)",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "arduino:samd:arduino_zero_edbg",
+      "href": "/v3/boards/arduino:samd:arduino_zero_edbg",
+      "name": "Arduino Zero (Programming Port)",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "arduino:samd:adafruit_circuitplayground_m0",
+      "href": "/v3/boards/arduino:samd:adafruit_circuitplayground_m0",
+      "name": "Adafruit Circuit Playground Express",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "sam",
+      "fqbn": "arduino:sam:arduino_due_x_dbg",
+      "href": "/v3/boards/arduino:sam:arduino_due_x_dbg",
+      "name": "Arduino Due (Programming Port)",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "sam",
+      "fqbn": "arduino:sam:arduino_due_x",
+      "href": "/v3/boards/arduino:sam:arduino_due_x",
+      "name": "Arduino Due (Native USB Port)",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "nrf52",
+      "fqbn": "arduino:nrf52:primo_core",
+      "href": "/v3/boards/arduino:nrf52:primo_core",
+      "name": "Arduino Primo Core",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "nrf52",
+      "fqbn": "arduino:nrf52:primo",
+      "href": "/v3/boards/arduino:nrf52:primo",
+      "name": "Arduino Primo",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "mraa",
+      "fqbn": "arduino:mraa:up2",
+      "href": "/v3/boards/arduino:mraa:up2",
+      "name": "UP² Board",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "mraa",
+      "fqbn": "arduino:mraa:intel_x86_64",
+      "href": "/v3/boards/arduino:mraa:intel_x86_64",
+      "name": "Intel x86_64 Boards / IoT Gateways",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "mraa",
+      "fqbn": "arduino:mraa:arm_linux_generic",
+      "href": "/v3/boards/arduino:mraa:arm_linux_generic",
+      "name": "ARM Linux Generic SBC",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "megaavr",
+      "fqbn": "arduino:megaavr:uno2018",
+      "href": "/v3/boards/arduino:megaavr:uno2018",
+      "name": "Arduino Uno WiFi Rev2",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "megaavr",
+      "fqbn": "arduino:megaavr:nona4809",
+      "href": "/v3/boards/arduino:megaavr:nona4809",
+      "name": "Arduino Nano Every",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "mbed_rp2040",
+      "fqbn": "arduino:mbed_rp2040:pico",
+      "href": "/v3/boards/arduino:mbed_rp2040:pico",
+      "name": "Raspberry Pi Pico",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "mbed_portenta",
+      "fqbn": "arduino:mbed_portenta:envie_m7",
+      "href": "/v3/boards/arduino:mbed_portenta:envie_m7",
+      "name": "Arduino Portenta H7 (M7 core)",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "mbed_portenta",
+      "fqbn": "arduino:mbed_portenta:envie_m4",
+      "href": "/v3/boards/arduino:mbed_portenta:envie_m4",
+      "name": "Arduino Portenta H7 (M4 core)",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "mbed_nicla",
+      "fqbn": "arduino:mbed_nicla:nicla_sense",
+      "href": "/v3/boards/arduino:mbed_nicla:nicla_sense",
+      "name": "Nicla Sense ME",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "mbed_nano",
+      "fqbn": "arduino:mbed_nano:nanorp2040connect",
+      "href": "/v3/boards/arduino:mbed_nano:nanorp2040connect",
+      "name": "Arduino Nano RP2040 Connect",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "mbed_nano",
+      "fqbn": "arduino:mbed_nano:nano33ble",
+      "href": "/v3/boards/arduino:mbed_nano:nano33ble",
+      "name": "Arduino Nano 33 BLE",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "mbed_edge",
+      "fqbn": "arduino:mbed_edge:edge_control",
+      "href": "/v3/boards/arduino:mbed_edge:edge_control",
+      "name": "Arduino Edge Control",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "arduino:avr:yunmini",
+      "href": "/v3/boards/arduino:avr:yunmini",
+      "name": "Arduino Yún Mini",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "arduino:avr:yun",
+      "href": "/v3/boards/arduino:avr:yun",
+      "name": "Arduino Yún",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "arduino:avr:unowifi",
+      "href": "/v3/boards/arduino:avr:unowifi",
+      "name": "Arduino Uno WiFi",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "arduino:avr:unomini",
+      "href": "/v3/boards/arduino:avr:unomini",
+      "name": "Arduino Uno Mini",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "arduino:avr:uno",
+      "href": "/v3/boards/arduino:avr:uno",
+      "name": "Arduino Uno",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "arduino:avr:robotMotor",
+      "href": "/v3/boards/arduino:avr:robotMotor",
+      "name": "Arduino Robot Motor",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "arduino:avr:robotControl",
+      "href": "/v3/boards/arduino:avr:robotControl",
+      "name": "Arduino Robot Control",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "arduino:avr:pro",
+      "href": "/v3/boards/arduino:avr:pro",
+      "name": "Arduino Pro or Pro Mini",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "arduino:avr:one",
+      "href": "/v3/boards/arduino:avr:one",
+      "name": "Linino One",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "arduino:avr:nano",
+      "href": "/v3/boards/arduino:avr:nano",
+      "name": "Arduino Nano",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "arduino:avr:mini",
+      "href": "/v3/boards/arduino:avr:mini",
+      "name": "Arduino Mini",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "arduino:avr:micro",
+      "href": "/v3/boards/arduino:avr:micro",
+      "name": "Arduino Micro",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "arduino:avr:megaADK",
+      "href": "/v3/boards/arduino:avr:megaADK",
+      "name": "Arduino Mega ADK",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "arduino:avr:mega",
+      "href": "/v3/boards/arduino:avr:mega",
+      "name": "Arduino Mega or Mega 2560",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "arduino:avr:lilypad",
+      "href": "/v3/boards/arduino:avr:lilypad",
+      "name": "LilyPad Arduino",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "arduino:avr:leonardoeth",
+      "href": "/v3/boards/arduino:avr:leonardoeth",
+      "name": "Arduino Leonardo ETH",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "arduino:avr:leonardo",
+      "href": "/v3/boards/arduino:avr:leonardo",
+      "name": "Arduino Leonardo",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "arduino:avr:gemma",
+      "href": "/v3/boards/arduino:avr:gemma",
+      "name": "Arduino Gemma",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "arduino:avr:fio",
+      "href": "/v3/boards/arduino:avr:fio",
+      "name": "Arduino Fio",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "arduino:avr:ethernet",
+      "href": "/v3/boards/arduino:avr:ethernet",
+      "name": "Arduino Ethernet",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "arduino:avr:esplora",
+      "href": "/v3/boards/arduino:avr:esplora",
+      "name": "Arduino Esplora",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "arduino:avr:diecimila",
+      "href": "/v3/boards/arduino:avr:diecimila",
+      "name": "Arduino Duemilanove or Diecimila",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "arduino:avr:circuitplay32u4cat",
+      "href": "/v3/boards/arduino:avr:circuitplay32u4cat",
+      "name": "Adafruit Circuit Playground",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "arduino:avr:chiwawa",
+      "href": "/v3/boards/arduino:avr:chiwawa",
+      "name": "Arduino Industrial 101",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "arduino:avr:bt",
+      "href": "/v3/boards/arduino:avr:bt",
+      "name": "Arduino BT",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "arduino:avr:atmegang",
+      "href": "/v3/boards/arduino:avr:atmegang",
+      "name": "Arduino NG or older",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "avr",
+      "fqbn": "arduino:avr:LilyPadUSB",
+      "href": "/v3/boards/arduino:avr:LilyPadUSB",
+      "name": "LilyPad Arduino USB",
+      "package": "arduino",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "arc32",
+      "fqbn": "Intel:arc32:arduino_101",
+      "href": "/v3/boards/Intel:arc32:arduino_101",
+      "name": "Arduino/Genuino 101",
+      "package": "Intel",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "Arrow:samd:adi_native",
+      "href": "/v3/boards/Arrow:samd:adi_native",
+      "name": "Analog ADI (Native USB Port)",
+      "package": "Arrow",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "Arrow:samd:adi_atmel_ice",
+      "href": "/v3/boards/Arrow:samd:adi_atmel_ice",
+      "name": "Analog ADI (via Atmel-ICE)",
+      "package": "Arrow",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "Arrow:samd:SmartEverything_Lion_native",
+      "href": "/v3/boards/Arrow:samd:SmartEverything_Lion_native",
+      "name": "SmartEverything Lion (Native USB Port)",
+      "package": "Arrow",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "Arrow:samd:SmartEverything_Lion_atmel_ice",
+      "href": "/v3/boards/Arrow:samd:SmartEverything_Lion_atmel_ice",
+      "name": "SmartEverything Lion (via Atmel-ICE)",
+      "package": "Arrow",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "Arrow:samd:SmartEverything_Fox_native",
+      "href": "/v3/boards/Arrow:samd:SmartEverything_Fox_native",
+      "name": "SmartEverything Fox (Native USB Port)",
+      "package": "Arrow",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "Arrow:samd:SmartEverything_Fox_atmel_ice",
+      "href": "/v3/boards/Arrow:samd:SmartEverything_Fox_atmel_ice",
+      "name": "SmartEverything Fox (via Atmel-ICE)",
+      "package": "Arrow",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "Arrow:samd:SmartEverything_Fox3_native",
+      "href": "/v3/boards/Arrow:samd:SmartEverything_Fox3_native",
+      "name": "SmartEverything Fox3 (Native USB Port)",
+      "package": "Arrow",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "Arrow:samd:SmartEverything_Fox3_atmel_ice",
+      "href": "/v3/boards/Arrow:samd:SmartEverything_Fox3_atmel_ice",
+      "name": "SmartEverything Fox3 (via Atmel-ICE)",
+      "package": "Arrow",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "Arrow:samd:SmartEverything_Dragonfly_native",
+      "href": "/v3/boards/Arrow:samd:SmartEverything_Dragonfly_native",
+      "name": "SmartEverything Dragonfly (Native USB Port)",
+      "package": "Arrow",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "Arrow:samd:SmartEverything_Dragonfly_atmel_ice",
+      "href": "/v3/boards/Arrow:samd:SmartEverything_Dragonfly_atmel_ice",
+      "name": "SmartEverything Dragonfly (via Atmel-ICE)",
+      "package": "Arrow",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "Arrow:samd:NetTrotter_native",
+      "href": "/v3/boards/Arrow:samd:NetTrotter_native",
+      "name": "SmartTutto (Native USB Port)",
+      "package": "Arrow",
+      "plan": "create-free"
+    },
+    {
+      "architecture": "samd",
+      "fqbn": "Arrow:samd:NetTrotter_atmel_ice",
+      "href": "/v3/boards/Arrow:samd:NetTrotter_atmel_ice",
+      "name": "SmartTutto (via Atmel-ICE)",
+      "package": "Arrow",
+      "plan": "create-free"
+    }
+  ]
+}
