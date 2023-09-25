@@ -13,15 +13,8 @@ module.exports = {
   },
   devtool: 'inline-source-map',
   devServer: {
-    https: {
-      //ca: fs.readFileSync('ottoschool.com.ca'),
-      //pfx: './path/to/server.pfx',
-      key: fs.readFileSync('ottoschool.com.key'),
-      cert: fs.readFileSync('ottoschool.com.crt')
-      //passphrase: 'webpack-dev-server'
-    },
     contentBase: www,
-    port: 443,
+    port: 8080,
     allowedHosts: ['local.arduino.cc'],
   },
   plugins: [
