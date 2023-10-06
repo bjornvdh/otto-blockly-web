@@ -127,7 +127,9 @@ Blockly.Msg.RTCDS3231_VALUES="value";
 Blockly.Msg.RTCDS3231_Name2="⏲️ RTC.";
 Blockly.Msg.RTCDS3231_TEXT_DOFWEEK="Dag van de week als tekst ";
 Blockly.Msg.RTCDS3231_TEXT_MONTH="Maand als tekst ";
-
+//***********************
+// TOT HIER NL
+//***********************
 
 //Wireless
 Blockly.Msg.esp8266_init_tooltip = "initialization of the wifi module and connection with the indicated parameters";

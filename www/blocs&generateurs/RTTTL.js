@@ -48,7 +48,7 @@ Blockly.Arduino['RTTTL_music'] = function(block) {
   var PIN_BUZZER = block.getFieldValue('PIN_BUZZER');
   var code;
   
-  Blockly.Arduino.includes_['include_PlayRTTTL'] = '#include <PlayRtttl.h>\n';
+  Blockly.Arduino.includes_['include_PlayRTTTL'] = '#include <PlayRtttl.hpp>\n';
   
   code= 'playRtttlBlockingPGM('+PIN_BUZZER+',(char*)'+melody+');\n';
  
@@ -83,7 +83,7 @@ Blockly.Arduino['RTTTL_music_custom'] = function(block) {
   
   var code;
   
-  Blockly.Arduino.includes_['include_PlayRTTTL'] = '#include <PlayRtttl.h>\n';
+  Blockly.Arduino.includes_['include_PlayRTTTL'] = '#include <PlayRtttl.hpp>\n';
   
   
  Blockly.Arduino.definitions_['Melody_'+name_melody] = 'static const char melody_'+ name_melody+'[] PROGMEM = '+rtttl_melody+';\n';
