@@ -224,7 +224,7 @@ Blockly.Blocks["servo_move"]={init:function(){
         this.appendDummyInput().appendField(Blockly.Msg.pin).setAlign(Blockly.ALIGN_RIGHT)
         .appendField(new Blockly.FieldDropdown(profile[card].dropdownAllPins), "PIN");
         this.appendValueInput("DEGREE", "Number").setCheck("Number").setAlign(Blockly.ALIGN_RIGHT).appendField(Blockly.Msg.ARDUINO_SERVO_MOVE_DEGREE);
-        this.appendValueInput("DELAY", "Number").setCheck("Number").setAlign(Blockly.ALIGN_RIGHT).appendField("⏲");
+        // this.appendValueInput("DELAY", "Number").setCheck("Number").setAlign(Blockly.ALIGN_RIGHT).appendField("⏲");
         this.setInputsInline(true);
         this.setPreviousStatement(true, null);
         this.setNextStatement(true, null);
@@ -235,11 +235,11 @@ Blockly.Blocks["servo_move"]={init:function(){
 Blockly.Arduino["servo_move"]=function(block){
     var value_pin = block.getFieldValue('PIN');
     var value_degree=Blockly.Arduino.valueToCode(block, "DEGREE", Blockly.Arduino.ORDER_ATOMIC);
-    var value_delay=Blockly.Arduino.valueToCode(block, "DELAY", Blockly.Arduino.ORDER_ATOMIC);
+    // var value_delay=Blockly.Arduino.valueToCode(block, "DELAY", Blockly.Arduino.ORDER_ATOMIC);
     Blockly.Arduino.includes_["define_servo"]="#include <Servo.h>";
     Blockly.Arduino.definitions_["var_servo" + value_pin]="Servo servo_" + value_pin + ";";
     Blockly.Arduino.setups_["setup_servo_" + value_pin]="servo_" + value_pin + ".attach(" + value_pin + ");";
-    return "servo_" + value_pin + ".write(" + value_degree + "); delay("+value_delay+");\n"
+    return "servo_" + value_pin + ".write(" + value_degree + "); \n"; //servo_move
 };
 Blockly.Python["servo_move"]=function(block){
     var value_pin=Blockly.Python.valueToCode(block, "PIN", Blockly.Python.ORDER_ATOMIC);
@@ -255,7 +255,7 @@ Blockly.Blocks["servo_move2"]={init:function(){
         this.appendDummyInput().appendField(new Blockly.FieldImage('media/servo.png', 33, 33, "*")).appendField(Blockly.Msg.ARDUINO_SERVO_MOVE_INPUT1);
         this.appendValueInput("PIN", "Number").setCheck("Number").setAlign(Blockly.ALIGN_RIGHT).appendField(Blockly.Msg.pin);
         this.appendValueInput("DEGREE", "Number").setCheck("Number").setAlign(Blockly.ALIGN_RIGHT).appendField(Blockly.Msg.ARDUINO_SERVO_MOVE_DEGREE);
-        this.appendValueInput("DELAY", "Number").setCheck("Number").setAlign(Blockly.ALIGN_RIGHT).appendField("⏲");
+        // this.appendValueInput("DELAY", "Number").setCheck("Number").setAlign(Blockly.ALIGN_RIGHT).appendField("⏲");
 		this.appendValueInput("Min", "Number").setCheck("Number").setAlign(Blockly.ALIGN_RIGHT).appendField("Min");
 		this.appendValueInput("Max", "Number").setCheck("Number").setAlign(Blockly.ALIGN_RIGHT).appendField("Max");
         this.setInputsInline(true);
@@ -268,13 +268,13 @@ Blockly.Blocks["servo_move2"]={init:function(){
 Blockly.Arduino["servo_move2"]=function(block){
     var value_pin=Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);
     var value_degree=Blockly.Arduino.valueToCode(block, "DEGREE", Blockly.Arduino.ORDER_ATOMIC);
-    var value_delay=Blockly.Arduino.valueToCode(block, "DELAY", Blockly.Arduino.ORDER_ATOMIC);
+    // var value_delay=Blockly.Arduino.valueToCode(block, "DELAY", Blockly.Arduino.ORDER_ATOMIC);
 	var value_min=Blockly.Arduino.valueToCode(block, "Min", Blockly.Arduino.ORDER_ATOMIC);
 	var value_max=Blockly.Arduino.valueToCode(block, "Max", Blockly.Arduino.ORDER_ATOMIC);
     Blockly.Arduino.includes_["define_servo"]="#include <Servo.h>";
     Blockly.Arduino.definitions_["var_servo" + value_pin]="Servo servo_" + value_pin + ";";
     Blockly.Arduino.setups_["setup_servo_" + value_pin]="servo_" + value_pin + ".attach(" + value_pin + ","+value_min+","+value_max+");";
-    return "servo_" + value_pin + ".write(" + value_degree + "); delay("+value_delay+");\n"
+    return "servo_" + value_pin + ".write(" + value_degree + "); \n"
 };
 
 
@@ -494,17 +494,17 @@ Blockly.Blocks['servo_2wheels'] = {  init: function() {
     return code;
   };
 
-Blockly.Blocks["servo_PWM"]={init:function(){
-    this.appendDummyInput().appendField(new Blockly.FieldImage('media/pc9685.png', 22, 22, "*")).appendField(new Blockly.FieldImage('media/servo.png', 33, 33, "*")).appendField("PCA9685 "+ Blockly.Msg.pin);;
-    this.appendDummyInput().appendField(new Blockly.FieldDropdown([["0", "0"], ["1", "1"], ["2", "2"], ["3", "3"],["4", "4"], ["5", "5"], ["6", "6"], ["7", "7"],["8", "8"], ["9", "9"], ["10", "10"], ["11", "11"],["12", "12"], ["13", "13"], ["14", "14"], ["15", "15"]]), "PIN");
-    this.appendValueInput("DEGREE", "Number").setCheck("Number").setAlign(Blockly.ALIGN_RIGHT).appendField(Blockly.Msg.ARDUINO_SERVO_MOVE_DEGREE);
-    this.setInputsInline(true);
-    this.setPreviousStatement(true, null);
-    this.setNextStatement(true, null);
-    this.setColour("#2d2dd1");
-    this.setHelpUrl("PCA9685");
-    this.setTooltip("https://learn.adafruit.com/16-channel-pwm-servo-driver")}
-};
+// Blockly.Blocks["servo_PWM"]={init:function(){
+//     this.appendDummyInput().appendField(new Blockly.FieldImage('media/pc9685.png', 22, 22, "*")).appendField(new Blockly.FieldImage('media/servo.png', 33, 33, "*")).appendField("PCA9685 "+ Blockly.Msg.pin);;
+//     this.appendDummyInput().appendField(new Blockly.FieldDropdown([["0", "0"], ["1", "1"], ["2", "2"], ["3", "3"],["4", "4"], ["5", "5"], ["6", "6"], ["7", "7"],["8", "8"], ["9", "9"], ["10", "10"], ["11", "11"],["12", "12"], ["13", "13"], ["14", "14"], ["15", "15"]]), "PIN");
+//     this.appendValueInput("DEGREE", "Number").setCheck("Number").setAlign(Blockly.ALIGN_RIGHT).appendField(Blockly.Msg.ARDUINO_SERVO_MOVE_DEGREE);
+//     this.setInputsInline(true);
+//     this.setPreviousStatement(true, null);
+//     this.setNextStatement(true, null);
+//     this.setColour("#2d2dd1");
+//     this.setHelpUrl("PCA9685");
+//     this.setTooltip("https://learn.adafruit.com/16-channel-pwm-servo-driver")}
+// };
 Blockly.Arduino["servo_PWM"]=function(block){
     var pin = block.getFieldValue('PIN');
     var degree =Blockly.Arduino.valueToCode(block, "DEGREE", Blockly.Arduino.ORDER_ATOMIC);

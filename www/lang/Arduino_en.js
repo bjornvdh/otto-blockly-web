@@ -77,6 +77,7 @@ Blockly.Msg.CAT_APDS9960 = "👋 Gesture";
 Blockly.Msg.CAT_TCS34725 = "🌈 Color";
 Blockly.Msg.CAT_Displays = "💻 Displays";
 Blockly.Msg.CAT_OLED_U8G = "🖥️ OLED";
+Blockly.Msg.CAT_OLED_1 = "🖥️ OLED";
 Blockly.Msg.CAT_TFT_ST7735 = "📺 TFT";
 Blockly.Msg.CAT_del = "🔆 GFX";
 Blockly.Msg.CAT_LED = "💡 LED";
